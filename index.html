@@ -1,55 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Design 1 Reference Site</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+<body>
 <header>
-    <h1>Reference Website</h1>
-    <nav>
-      <ul>
-        <li><a href="#naming-coventions">Naming Conventions</a></li>
-        <li><a href="#commit-messages">Commit messages</a></li>
-        <li><a href="#html-elements">HTML Elements</a></li>
-      </ul>
-    </nav>
-  </header>  
+<nav role="navigation" id="nav">
+  <ul>
+    <li><a href="#bg">Backgrounds</a></li>
+    <li><a href="#font">Fonts</a></li>
+  </ul>
+</nav>
+</header>
+
+
+<main role="main">
+<p class="intro">
+<h1>Welcome to my random website</h1>
+<section id="intro">
+<p>This paragrapgh demonstrates I can use p tags</p>
+</section>
+
+<section id="items-li">
+<h2>Listing items using li tag</h2>
+<li>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</li>
+</section>
+
+<section id="items-ul">
+<h2>Listing items using ul tag </h2>
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+</section>
+
+
+<section id="items-ol">
+<h2>Listing items using ol tag</h2>
+<ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ol>
+</section>
+
+<section id="descript-list">
+    <h4>Descript List</h4>
+    <dt>Character:</dt>
+    <dd>Gnome</dd>
+    <dt>Height:<dt>
+    <dd>2ft</dd>
+    <dt>Level:</dt>
+    <dd>6</dd>
+</section>
+
+
+<section id="bg">
+    <h3>Pyramid Background</h3>
+    <p>Linking images and websites within a section.</p>
+<figure>
+    <img src="images/cool-image-3.jpg" alt="cartman">
+
+    <figcaption class="image-caption"></figcaption>
+    <figcaption>Pyramid Background<cite>Google Images</cite></figcaption>
+</figure>
+
+<a href=https://pixabay.com/images/search/background>Additional backgrounds</a>
+
+  <h3>Skull With Headphones</h3>
+  <p>Here are some cool images to show I can link images</p>
+  <img src="images/cool-image-1.jpg" alt="skull with headphones">
   
-  <main>
-    <section id="naming-coventions">
-      <h2>Naming Conventions</h2>
-      
-      <h3>Rules for naming files and paths</h3>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </section>
-    
-    <section id="commit-messages">
-      <h2>Commit messages</h2>
-    </section>
-    
-    <section id="html-elements">
-      <h2>HTML Elements</h2>
-      
-      <h3>Headings</h3>
-      <!-- explain headings -->
-      <div>
-        <h1></h1>
-        <h2></h2>
-        <h3></h3>
-        <h4></h4>
-        <h5></h5>
-        <h6></h6>
-      </div>
-      
-      <h3>Paragraph</h3>
-      <p>This is an example of a chunk of text within a p tag.</p>
-      
-      <h3>Unordered list</h3>
-      
-      <ul>
-        <li>I am a list item</li>
-        <li>in an unordered list</li>
-        <li>where my order is not important</li>
-      </ul>
-    </section>
-  </main>
+  <figcaption>Cool photo I had in my photos <cite>Goolge images</cite></figcaption>
   
-  
+  <a href=https://www.freepik.com/free-photos-vectors/skull-art> Skull Vectors</a>
+</section>
+
+<section id="font">
+<div class="changing-fonts">
+    <h2>Changing fonts in CSS</h2>
+    <p class="font1">Font 1</p>
+    <p class="font2">Font 2</p>
+    <p class="font3">Font 3</p>
+</div>
+</section>
+
+<div class="class">
+  <dl>
+    <dt>Div's</dt>
+    <dd>For altering an entire sections attributes at once</dd>
+  </dl>
+  <dl>
+    <dt>Selectors</dt>
+    <dd>Last-of-type is to select the last item within the div</dd>
+  </dl>
+  <dl>
+    <dt>Navigation</dt>
+    <dd><a href="#nav">Return</a></dd>
+  </dl>
+</div>
+</main>
+
+
+<footer role="contentinfo">
+    <p> <small> &copy;Brianna Smith</small></p>
+</footer>
+</body>
+</html>

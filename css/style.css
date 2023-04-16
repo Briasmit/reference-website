@@ -1,0 +1,107 @@
+body{
+    background-color: #f2f2f2;
+    padding: 0 3em;
+    font-family: Roboto, Open Sans, sans-serif;
+    border-top: 100px solid rgb(94, 16, 211);
+    border-bottom: 50px solid rgb(94, 16, 211)
+  }
+ 
+ 
+  nav ul {
+    list-style-type: none; 
+    padding: 0;  
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 1em;
+  }
+  .columns {
+    display: flex;
+  }
+  
+  .columns div {
+    width: 50%;
+  }
+  
+  .columns div {
+    width: 50%;
+    padding: .5em;
+    display: flex;
+    flex-direction: column;
+  }
+  .columns p {
+    flex-grow: 2;
+  }
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500%;
+    font-style: normal;
+    line-height: 5rem;
+    margin:1rem;
+    color: darkorchid;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 5rem;
+  }
+  
+  
+  figcaption {
+    font-family: 'Open Sans', sans-serif;
+    color:purple;
+    text-transform: uppercase;
+  }
+  
+  .bg {
+    font-family: 'Roboto', sans-serif;
+    color: purple;
+    font-size: 200%;
+  }
+  
+    .changing-fonts {
+      font-size: 150%;
+      color: black;
+    }
+    .font1 {
+      font-family: 'Open Sans', sans-serif;
+      color: rgb(203, 61, 203);
+    }
+    .font2 {
+      font-family: 'Roboto', sans-serif;
+      color: orangered;
+    }
+    .font3 {
+      font-family: 'Open Sans', sans-serif;
+      color:darkorchid
+    }
+    a:hover {
+      color: purple;
+    }
+    a:visited {
+      color: black;
+    }
+    input:focus {
+      border-color: orchid;
+    }
+    blockquote {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.2em;
+      color: darkorange;
+      border-left: 5px solid #333;
+    background-color:rgb(183, 0, 255);
+    padding: 15px;
+    margin: 15px 0;
+    text-shadow: black;
+    text-indent: 3em;
+    }
+    footer {
+      font-size: small;
+      font-weight: bold;
+    text-align: center;
+    }
